@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import CssNotification from '../components/utility-first/css-notification';
 
 const Home: NextPage = () => {
   return (

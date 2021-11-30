@@ -1,0 +1,69 @@
+/* Nav */
+.header {
+  box-shadow: 0 0.15rem 0.25rem rgb(0 0 0 / 15%);
+}
+.navItem,
+.memberLogin {
+  @apply flex flex-col justify-center font-medium;
+  font-family: 'Noto Sans TC';
+  letter-spacing: 0.1em;
+}
+.navItem {
+  @apply text-header;
+  padding: 0 0.5rem;
+}
+.memberLogin {
+  background-color: var(--button-bg);
+  font-weight: 400;
+  border-radius: 50rem !important;
+}
+
+.textBlueLight {
+  color: #1d80d3 !important;
+}
+.textBlueDark {
+  color: #021d3b !important;
+}
+
+.footerCol {
+  margin: 0 -10px;
+  align-items: stretch;
+  background-color: #021d3b !important;
+}
+
+.view {
+  min-width: 15rem;
+  white-space: nowrap;
+  background-color: #01162c;
+}
+.view span::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 2rem;
+  height: 2rem;
+  background: url(../../../public/image/footer_icon.png) no-repeat 0% 50%/100%;
+}
+
+.view span {
+  font-size: 1.1rem;
+  letter-spacing: 0.03em;
+  line-height: 1;
+}
+.view b {
+  transform: scale(0.7);
+}
+.tipCol {
+  color: #f8f8f8 !important;
+}
+.small {
+  font-size: 0.92em;
+}
+@media (min-width: 992px) {
+  .view {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+}

@@ -1,13 +1,13 @@
 import type { AppProps } from 'next/app';
 import 'tailwindcss/tailwind.css';
 import 'styles/globals.css';
-import Header from 'src/components/Header';
+import Layout from 'src/components/Layout';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <Header>
+    <Layout>
       <Component {...pageProps} />
-    </Header>
+    </Layout>
   );
 }
 

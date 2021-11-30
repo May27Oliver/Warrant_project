@@ -13,6 +13,9 @@ module.exports = {
       fontSize: {
         header: '1.1em',
       },
+      height: {
+        ftContent: 'fit-content',
+      },
     },
   },
   variants: {
